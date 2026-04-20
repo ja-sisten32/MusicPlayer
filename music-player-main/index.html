@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="shortcut icon" href="favicon/watercolor-abstract-background-free-png.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1>🎧 Music Player</h1>
+        <h2>Top music</h2>
+    </header>
+    <main>
+
+        <div class="music" data-src="sound/March To Victory.mp3">
+            <img src="images/rock.jpeg">
+            <p>Rock</p>
+        </div>
+
+        <div class="music" data-src="sound/pulse-of-desire-271225.mp3">
+            <img src="images/eletronic.jpeg">
+            <p>Eletronic</p>
+        </div>
+
+        <div class="music" data-src="sound/country-cowboy-texas-music-346559.mp3">
+            <img src="images/country.jpeg">
+            <p>Country</p>
+        </div>
+
+        <div class="music" data-src="sound/seductive-chill-hip-hop-instrumental-hear-me-134134.mp3">
+            <img src="images/hip hop.jpeg">
+            <p>Hip Hop</p>
+        </div>
+
+   </main>
+    <footer>
+        <div class="player">
+            <button id="playPauseBtn">
+            ▶
+            </button>
+            <span id="currentTime">
+                0:00
+            </span>
+            <input type="range" id="progressBar" value="0">
+            <span id="duration">
+                0:00
+            </span>
+        </div>
+        <audio id="audioPlayer"></audio>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
