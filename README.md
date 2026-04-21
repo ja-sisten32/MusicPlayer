@@ -5,7 +5,7 @@ O projeto demonstra a reprodução de áudio na web com interação do usuário.
 
 ## Preview
 
-![Preview do projeto](preview.png)
+![Preview do projeto](previewMusicPlayer.png)
 
 ## Sobre o projeto
 
